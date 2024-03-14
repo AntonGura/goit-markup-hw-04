@@ -102,7 +102,6 @@ img {
 }
 
 .header-nav-item {
-        position: relative;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -111,7 +110,7 @@ img {
 }
 
 .header-nav-link {
-
+        position: relative;
         padding: 24px 0;
         display: block;
         color: #404bbf
@@ -197,8 +196,10 @@ img {
         to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
     ), url(/images/people-office-img.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
         padding: 188px 0;
+        max-width: 1440px;
 }
 
 .hero-tittle {
@@ -214,6 +215,7 @@ img {
 }
 
 .hero-tittle-btn {
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         background: #4d5ae5;
         font-weight: 500;
         font-size: 16px;
