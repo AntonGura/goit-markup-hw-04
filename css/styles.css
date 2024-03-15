@@ -168,7 +168,7 @@ img {
 }
 
 .header-nav-link:active::after {
-        content: "";
+        content:"";
         background-color: #404bbf;
         border-radius: 2px;
         width: 100%;
