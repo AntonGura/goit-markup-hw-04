@@ -167,8 +167,13 @@ img {
         color: #404bbf;
 }
 
-.header-nav-link:active::after {
-        content:"";
+.current {
+        position: relative;
+        color: #404bbf;
+}
+
+.header-nav-link.current:active::after {
+        content: "";
         background-color: #404bbf;
         border-radius: 2px;
         width: 100%;
@@ -179,7 +184,7 @@ img {
         left: 0;
         bottom: -1px;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                
+
 }
 
 .header-address-link:hover,
@@ -559,7 +564,6 @@ padding: 100px 0;
 .footer-social-list-item {
         width: 40px;
         height: 40px;
-        background-color: #4d5ae5;
 }
 
 .footer-social-link {
