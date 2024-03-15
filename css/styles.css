@@ -172,7 +172,7 @@ img {
         color: #404bbf;
 }
 
-.header-nav-link.current:active::after {
+.header-nav-link.current::after {
         content: "";
         background-color: #404bbf;
         border-radius: 2px;
